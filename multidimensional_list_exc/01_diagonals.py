@@ -8,6 +8,7 @@ matrix = [[int(el) for el in input().split(", ")] for _ in range(n)]
 primary_diagonal_list = [matrix[idx][idx] for idx in range(n)]
 # for idx in range(n):
 #     primary_diagonal_list.append(matrix[idx][idx])
+
 secondary_diagonal_list = [matrix[idx][n-idx-1] for idx in range(n)]
 # for idx in range(n):
 #     secondary_diagonal_list.append(matrix[idx][n-idx-1])
