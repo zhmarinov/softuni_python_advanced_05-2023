@@ -2,7 +2,9 @@ Error Handling:
 
 1. Numbers Dictionary
 
+
 You are provided with the following code:
+
 
 
 numbers_dictionary = {}
@@ -43,6 +45,8 @@ while line != "End":
 print(numbers_dictionary)
 
 
+
+
 • On the first several lines, until you receive the command "Search", you will receive on separate lines the
 number as a text and the number as an integer
 
@@ -73,7 +77,9 @@ Print appropriate messages when an error has occurred. The messages should be:
 
 
 
+
 2. Email Validator
+
 
 You will be given some emails until you receive the command "End". Create the following custom exceptions to
 validate the emails:
