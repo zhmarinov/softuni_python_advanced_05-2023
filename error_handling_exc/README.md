@@ -10,8 +10,11 @@ line = input()
 
 while line != "Search":
 	number_as_string = line
+
 	number = int(input())
+
  	numbers_dictionary[number_as_string] = number
+
 
 line = input()
 
