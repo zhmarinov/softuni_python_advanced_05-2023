@@ -42,6 +42,6 @@ while True:
         raise MoreThenOneAtSymbolError("Email should contain only one @ symbol")
 
     if emails_line.count('.') > 1:
-        raise MoreThenOneAtSymbolError("Email should contain only one '.' symbol")
+        raise MoreThenOneDotError("Email should contain only one '.' symbol")
 
     print("Email is valid")
