@@ -10,11 +10,11 @@ class InvalidDomainError(Exception):
     pass
 
 
-class MoreThenOneAtSymbolError(Exception):
+class MoreThanOneAtSymbolError(Exception):
     pass
 
 
-class MoreThenOneDotError(Exception):
+class MoreThanOneDotError(Exception):
     pass
 
 
@@ -39,9 +39,9 @@ while True:
         raise InvalidDomainError("Domain must be one of the following: .com, .bg, .org, .net")
 
     if emails_line.count('@') > 1:
-        raise MoreThenOneAtSymbolError("Email should contain only one @ symbol")
+        raise MoreThanOneAtSymbolError("Email should contain only one @ symbol")
 
     if emails_line.count('.') > 1:
-        raise MoreThenOneDotError("Email should contain only one '.' symbol")
+        raise MoreThanOneDotError("Email should contain only one '.' symbol")
 
-    print("Email is valid")
+    print('Email is valid')
